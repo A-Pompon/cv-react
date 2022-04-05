@@ -39,7 +39,7 @@ const About = () => {
                 <MdLanguage className="about__icon" />
                 <h5>Langues</h5>
                 <small>Anglais - niveau B2</small>
-                <small>Espagnol - niveau B</small>
+                <small>Espagnol - niveau B1</small>
                 <small>Italien - notions</small>
               </article>
 

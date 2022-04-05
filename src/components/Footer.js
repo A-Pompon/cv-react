@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="footer__logo-container">
         <Link
           className="footer__logo"
-          to="/cv-react/"
+          to="/"
           onClick={() => {
             dispatch(home());
           }}
@@ -33,7 +33,7 @@ const Footer = () => {
       <ul className="permalinks">
         <li>
           <Link
-            to="/cv-react/"
+            to="/"
             onClick={() => {
               dispatch(home());
             }}
