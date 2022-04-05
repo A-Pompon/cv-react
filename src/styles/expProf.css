@@ -1,5 +1,5 @@
 .container.professionnelles_container {
-    width: var(--container-width-lg);
+  width: var(--container-width-lg);
   padding-bottom: 4rem;
 }
 
@@ -15,7 +15,6 @@
 .profess__content{
     display: flex;
   flex-direction: column;
-  align-content: space-around;
 }
 
 .profess__title {
@@ -44,20 +43,36 @@
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 
 @media screen and (max-width: 1024px) {
-    .container.professionnelles_container {
-      width: var(--container-width-md);
+  .container.professionnelles_container {
+    width: var(--container-width-md);
     }
   }
   
   /* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
   
   @media screen and (max-width: 600px) {
-    .container.professionnelles_container {
-      width: var(--container-width-sm);
+  .container.professionnelles_container {
+    width: 97%;
     }
+
+  .profess {
+    padding: 1rem;
+  }
+
+  .profess__title {
+     width: 98%;
+  }
   
-    .diplome__name {
-      width: var(--container-width-sm);
+  .profess__employer{
+      width: 98%;
+  }
+  
+  .profess__description {
+      width: 100%;
+  }
+  
+    .profess__content {
+      width: 100%;
     }
   }
   
