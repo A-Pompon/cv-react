@@ -31,7 +31,15 @@
   
   @media screen and (max-width: 600px) {
   
-    .about__nav a {
+    .exp__nav a {
       margin: 0.5rem;
     }
   }
+
+  /* ===== MEDIA QUERIES (VERY SMALL DEVICES) ===== */
+
+@media screen and (max-width: 290px) {
+  .exp__nav a {
+    margin: 0.5rem;
+  }
+}

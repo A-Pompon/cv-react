@@ -1,7 +1,6 @@
 .navBar__container {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
-  /* display: block; */
   padding: 0.7rem 1.7rem;
   z-index: 2;
   position: fixed;
@@ -37,11 +36,25 @@
 @media screen and (max-width: 600px) {
   .navBar__container {
     width: max-content;
-    margin-bottom: 1rem;
+    margin-bottom: 0.9rem;
   }
 
   .navBar__container a {
     font-size: 1.1rem;
+  }
+}
+
+/* ===== MEDIA QUERIES (VERY SMALL DEVICES) ===== */
+
+@media screen and (max-width: 350px) {
+  .navBar__container {
+    width: max-content;
+    gap: 0.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .navBar__container a {
+    font-size: 0.9rem;
   }
 }
 
