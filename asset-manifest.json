@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cv-react.git/static/css/main.b913e7d3.css",
+    "main.js": "/cv-react.git/static/js/main.94ca3d68.js",
+    "static/media/me-2.jpg": "/cv-react.git/static/media/me-2.ef02dfbea40c88e330a1.jpg",
+    "static/media/pompon-cv.pdf": "/cv-react.git/static/media/pompon-cv.30e8ce666b6883741186.pdf",
+    "static/media/me.jpg": "/cv-react.git/static/media/me.7a3a57334aef00f82be2.jpg",
+    "static/media/codingame.pdf": "/cv-react.git/static/media/codingame.13e159cba866b4172eeb.pdf",
+    "static/media/dessin1.jpg": "/cv-react.git/static/media/dessin1.782b25b077ceb5eee386.jpg",
+    "static/media/dessin4.jpg": "/cv-react.git/static/media/dessin4.1e5c97c887c6a2e8983b.jpg",
+    "static/media/dessin2.jpg": "/cv-react.git/static/media/dessin2.559fdb21fae379601071.jpg",
+    "static/media/dessin5.jpg": "/cv-react.git/static/media/dessin5.338c428aedde12dbff94.jpg",
+    "static/media/dessin3.jpg": "/cv-react.git/static/media/dessin3.5b8e0fe8fbcaacdf4c7f.jpg",
+    "static/media/dessin0.jpg": "/cv-react.git/static/media/dessin0.d4a4f3b4aa7a788a9ed7.jpg",
+    "index.html": "/cv-react.git/index.html",
+    "main.b913e7d3.css.map": "/cv-react.git/static/css/main.b913e7d3.css.map",
+    "main.94ca3d68.js.map": "/cv-react.git/static/js/main.94ca3d68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b913e7d3.css",
+    "static/js/main.94ca3d68.js"
+  ]
+}
