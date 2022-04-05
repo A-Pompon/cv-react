@@ -19,7 +19,7 @@ const dataPortfolio = [
     id: 0,
     image: IMG0,
     title: "React - CV",
-    git: "LIEN VERS PROJET",
+    git: "https://github.com/A-Pompon/cv-react",
     language: "Le site est réalisé en React & est responsive.",
     info: "Ce site est une démonstration de l'usage de React et des ses différentes librairies à fin de créer un site pour mettre en avant mon CV. On peut y retrouver l'utilisation de react-router-dom, redux, react-icons, swiper, react-fontawesome.",
     languageIcons: [faReact, faJs, faCss3],
