@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <nav className="navBar__container">
       <Link
-        to="/cv-react"
+        to="/"
         onClick={() => {
           dispatch(home());
         }}
