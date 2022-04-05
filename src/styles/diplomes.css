@@ -1,0 +1,75 @@
+.container.diplomes_container {
+  width: var(--container-width-lg);
+  padding-bottom: 4rem;
+}
+
+.diplome {
+  min-height: 300px;
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.diplome__avatar {
+  display: flex;
+  width: 4rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  border: 0.4rem solid var(--color-primary-variant);
+}
+
+.diplome__avatar-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: var(--color-primary);
+  font-size: 1.8rem;
+}
+
+.diplome__content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.diplome__annee {
+  font-size: 1.5rem;
+}
+
+.diplome__name {
+  color: var(--color-light);
+  font-weight: 300;
+  font-size: 1.2rem;
+  justify-content: center;
+  width: 80%;
+  margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
+}
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
+
+@media screen and (max-width: 1024px) {
+  .container.diplomes_container {
+    width: var(--container-width-md);
+  }
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
+
+@media screen and (max-width: 600px) {
+  .container.diplomes_container {
+    width: var(--container-width-sm);
+  }
+
+  .diplome__name {
+    width: var(--container-width-sm);
+  }
+}

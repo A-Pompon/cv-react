@@ -1,0 +1,31 @@
+/* ===== HEADER SOCIALS ===== */
+
+.home__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.home__socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
+
+@media screen and (max-width: 600px) {
+  .home__socials {
+    display: none;
+  }
+}

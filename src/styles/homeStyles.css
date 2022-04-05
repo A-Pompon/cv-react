@@ -1,0 +1,124 @@
+.home {
+  height: 100vh;
+  padding-top: 2rem;
+  /* overflow: hidden; */
+}
+
+.home__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/* ===== HEADER BUTTONS ===== */
+
+.buttons {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* ===== ME =====*/
+
+/* TEST
+   .me {
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    right: calc(50% - 11rem);
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 4rem;
+    border-radius: 5rem 5rem;
+    overflow: hidden;
+  } */
+
+/* .me-image {
+    border-radius: 3rem 3rem;
+    -webkit-filter: blur(3px);
+    filter: blur(10px);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .me-image:hover {
+    transform: rotate(360deg) scale(1.05);
+    box-shadow: 0 0 0 4px var(--color-primary),
+      0 0 0 8px var(--color-primary-variant), 0 0 0 12px var(--color-bg-variant);
+    transition: var(--transition2);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  } */
+
+.me {
+  width: 22rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.me-image {
+  border-radius: 3rem 3rem;
+}
+
+.me-image:hover {
+  box-shadow: 0 0 0 4px var(--color-primary),
+    0 0 0 8px var(--color-primary-variant), 0 0 0 12px var(--color-bg-variant);
+  transition: var(--transition2);
+}
+
+/* ===== SCROLL DOWN =====*/
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
+
+@media screen and (max-width: 1024px) {
+  .home {
+    height: 100%;
+  }
+
+  .me-image {
+    box-shadow: 0 0 0 4px var(--color-primary),
+      0 0 0 8px var(--color-primary-variant), 0 0 0 12px var(--color-bg-variant);
+    border-radius: 3rem 3rem;
+  }
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
+
+@media screen and (max-width: 600px) {
+  .home {
+    height: 100%;
+  }
+
+  .home__socials,
+  .scroll__down {
+    display: none;
+  }
+
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .me-image {
+    box-shadow: 0 0 0 4px var(--color-primary),
+      0 0 0 8px var(--color-primary-variant), 0 0 0 12px var(--color-bg-variant);
+    border-radius: 3rem 3rem;
+    width: 80%;
+  }
+}
