@@ -39,7 +39,7 @@ const dataPortfolio = [
     title: "Express.js - Backend de MovieDex",
     git: "https://gitlab.com/PomponArnaud/pocketnews/-/tree/dev",
     language: "Le backend est réalisé en Express.js et la DB en PostgreSQL.",
-    info: "J’ai créé un serveur en utilisant Node.js et Express.js ainsi qu'une base de données avec PostgreSQ , afin de créer une API (interface de programmation d’application) RESTful (style d’architecture logiciel avec un ensemble de contraintes) permettant des opérations CRUD (Create, Read, Update and Delete) ainsi qu'un système d'authentification avec hachage de mot de passe et utilisation de tokens.",
+    info: "J’ai créé un serveur en utilisant Node.js et Express.js ainsi qu'une base de données avec PostgreSQ, afin de créer une API (interface de programmation d’application) RESTful (style d’architecture logiciel avec un ensemble de contraintes) permettant des opérations CRUD (Create, Read, Update and Delete) ainsi qu'un système d'authentification avec hachage de mot de passe et utilisation de tokens.",
     languageIcons: [faNode],
   },
   {

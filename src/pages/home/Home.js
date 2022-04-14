@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/homeStyles.css";
 import "../../styles/homeSocialsStyles.css";
 import HomeButtons from "./home-feat/HomeButtons";
-import ME from "../../../src/./assets/me-2.jpg";
+import ME from "../../../src/./assets/me-2.png";
 import SocialsLarge from "../../components/SocialsLarge";
 import { Link } from "react-router-dom";
 
@@ -22,16 +22,19 @@ const Home = () => {
           <h5>Je me présente</h5>
           <h1>Arnaud Pomponio</h1>
           <h5 className="text-light">Développeur Fullstack Junior</h5>
-          <HomeButtons />
-          <SocialsLarge />
 
-          <div className="me">
-            <img
-              src={ME}
-              alt="Me"
-              title="Recherche poste Développeur Web"
-              className="me-image"
-            />
+          <SocialsLarge />
+          <div className="content">
+            <HomeButtons />
+
+            <div className="me">
+              <img
+                src={ME}
+                alt="Me"
+                title="Recherche poste Développeur Web"
+                className="me-image"
+              />
+            </div>
           </div>
 
           <Link

@@ -23,7 +23,7 @@ const Project = ({ item }) => {
         </div>
         <h3>{title}</h3>
         <div className="portfolio__item-btn">
-          <a href={git} className="btn" target="_blank" rel="noreferrer">
+          <a href={git} className="lien" target="_blank" rel="noreferrer">
             Lien git
           </a>
           <FontAwesomeIcon

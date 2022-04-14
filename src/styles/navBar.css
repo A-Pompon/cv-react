@@ -46,11 +46,10 @@
 
 /* ===== MEDIA QUERIES (VERY SMALL DEVICES) ===== */
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 415px) {
   .navBar__container {
-    width: max-content;
     gap: 0.3rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.7rem;
   }
 
   .navBar__container a {
@@ -60,9 +59,21 @@
 
 /* ===== MEDIA QUERIES (VERY SMALL DEVICES) ===== */
 
-@media screen and (max-width: 290px) {
+@media screen and (max-width: 350px) {
   .navBar__container {
-    width: max-content;
+    margin-bottom: 0.5rem;
+  }
+
+  .navBar__container a {
+    font-size: 0.8rem;
+  }
+}
+
+/* ===== MEDIA QUERIES (VERY SMALL DEVICES) ===== */
+
+@media screen and (max-width: 300px) {
+  .navBar__container {
+    margin-bottom: 0rem;
   }
 
   .navBar__container a {
