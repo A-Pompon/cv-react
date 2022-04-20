@@ -71,7 +71,7 @@ const About = () => {
               <br />
               <br />
               Initié lors de mon parcours universitaire au fonctionnement
-              interne ainsi qu'a la méthodologie de création d'un site web, j'ai
+              interne ainsi qu'à la méthodologie de création d'un site web, j'ai
               décidé de me lancer dans l'apprentissage du développement web en
               autodidacte.
               <br />

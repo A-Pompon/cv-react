@@ -3,7 +3,7 @@ const dataExperiences = [
     title: "Stage Développeur Web Fullstack",
     employer: ["DAMIEN | Septembre - Novembre 2021"],
     description:
-      "Durant mon stage en entreprise, j’ai été en charge de créer une application utilisant certaines fonctionnalités : interface utilisateur, hachage du mot de passe, utilisation de tokens, gestion du state globale avec un système d'annotation, API RESTfull.",
+      "Durant mon stage en entreprise, j’ai été en charge de créer une application utilisant certaines fonctionnalités : interface utilisateur, hachage du mot de passe, utilisation de tokens, gestion du state global avec un système d'annotation, API RESTfull.",
   },
   {
     title: "Stage Community manager",
@@ -15,7 +15,7 @@ const dataExperiences = [
     title: "Stage Professeur d'EPS",
     employer: ["Marie de Paris | Novembre 2016 - Avril 2017"],
     description:
-      "Enseigner une discipline à un groupe de d'élèves. Animer des activités sportives. Préparer les cours et établir la progression pédagogique du groupe. Accompagner les élèves dans leur parcours de formation.",
+      "Enseigner une discipline à un groupe d'élèves. Animer des activités sportives. Préparer les cours et établir la progression pédagogique du groupe. Accompagner les élèves dans leur parcours de formation.",
   },
   {
     title: "Animateur",
