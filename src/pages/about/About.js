@@ -65,20 +65,20 @@ const About = () => {
               <br />
               <br />
               Après avoir obtenu un bac S, j'ai effectué une double licence en
-              STAPS. J'ai donc exercé durant 5 ans dans le domaine de
-              l'animation et de l'éducation nationale en tant que animateur et
-              professeur d'EPS.
+              STAPS. J'ai exercé durant 5 ans dans le domaine de l'animation et
+              de l'éducation nationale en tant que animateur et professeur
+              d'EPS.
               <br />
               <br />
-              Initié, lors de mon parcours universitaire, au fonctionnement
+              Initié lors de mon parcours universitaire au fonctionnement
               interne ainsi qu'a la méthodologie de création d'un site web, j'ai
               décidé de me lancer dans l'apprentissage du développement web en
               autodidacte.
               <br />
               <br />
-              Pour valider mes acquis j'ai donc effectué une formation et obtenu
-              mon titre de Développeur web & web mobile à fin de devenir
-              développeur Web.
+              Pour valider mes acquis j'ai effectué une formation et obtenu mon
+              titre de Développeur web & web mobile afin de devenir développeur
+              Web.
             </p>
 
             <Link

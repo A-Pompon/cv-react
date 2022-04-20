@@ -20,7 +20,7 @@ const Home = () => {
       <div className="home">
         <div className="container home__container">
           <h5>Je me présente</h5>
-          <h1>Arnaud Pomponio</h1>
+          <h1>Arnaud POMPONIO</h1>
           <h5 className="text-light">Développeur Fullstack Junior</h5>
 
           <SocialsLarge />
