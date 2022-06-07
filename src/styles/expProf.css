@@ -49,6 +49,9 @@
   color: red (Mettre !important);
 } */
 
+/* REDONDANCE DE CSS AVEC diplomes POSSIBILITE
+DE FAIRE 1 SEUL PAGE CSS POUR LES MEME CLASSE  */
+
 .swiper-button-next, .swiper-button-prev {
   top: 43% !important;
 }
