@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-react/static/css/main.2f2f0022.css",
-    "main.js": "/cv-react/static/js/main.e8e7be55.js",
+    "main.css": "/cv-react/static/css/main.155353cc.css",
+    "main.js": "/cv-react/static/js/main.1196ab4f.js",
     "static/media/me-2.png": "/cv-react/static/media/me-2.e2eb8d704629e2a32315.png",
     "static/media/pompon-cv.pdf": "/cv-react/static/media/pompon-cv.741855395806947b76c5.pdf",
     "static/media/me.jpg": "/cv-react/static/media/me.7a3a57334aef00f82be2.jpg",
@@ -14,11 +14,11 @@
     "static/media/dessin3.jpg": "/cv-react/static/media/dessin3.5b8e0fe8fbcaacdf4c7f.jpg",
     "static/media/dessin0.jpg": "/cv-react/static/media/dessin0.d4a4f3b4aa7a788a9ed7.jpg",
     "index.html": "/cv-react/index.html",
-    "main.2f2f0022.css.map": "/cv-react/static/css/main.2f2f0022.css.map",
-    "main.e8e7be55.js.map": "/cv-react/static/js/main.e8e7be55.js.map"
+    "main.155353cc.css.map": "/cv-react/static/css/main.155353cc.css.map",
+    "main.1196ab4f.js.map": "/cv-react/static/js/main.1196ab4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f2f0022.css",
-    "static/js/main.e8e7be55.js"
+    "static/css/main.155353cc.css",
+    "static/js/main.1196ab4f.js"
   ]
 }
