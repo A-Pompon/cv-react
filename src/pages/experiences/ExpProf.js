@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../styles/expProf.css";
+import "../../styles/swiper.css";
 
 import dataExperiences from "../../../src/data/dataExperiences.js";
 

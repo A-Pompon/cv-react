@@ -50,26 +50,6 @@
   margin: 0.8rem auto 0;
 }
 
-.swiper-pagination-clickable .swiper-pagination-bullet {
-  background: var(--color-primary);
-}
-
-:root {
-  --swiper-theme-color: rgba(255, 255, 255, 0.297);
-}
-
-/* AUTRE MOYEN POUR CHANGER LA COULEUR
-.swiper-button-next::after, .swiper-button-prev::after {
-  color: red (Mettre !important);
-} */
-
-/* REDONDANCE DE CSS AVEC expProf POSSIBILITE
-DE FAIRE 1 SEUL PAGE CSS POUR LES MEME CLASSE  */
-
-.swiper-button-next, .swiper-button-prev {
-  top: 43% !important;
-}
-
 /* ===== MEDIA QUERIES (MEDIUM DEVICES) ===== */
 
 @media screen and (max-width: 1024px) {
@@ -87,19 +67,5 @@ DE FAIRE 1 SEUL PAGE CSS POUR LES MEME CLASSE  */
 
   .diplome__name {
     width: var(--container-width-sm);
-  }
-
-  .swiper-button-next {
-    top: 87% !important;
-    right: 50% !important;
-  }
-
-  .swiper-button-prev {
-    top: 87% !important;
-    left: 25% !important;
-  }
-
-  .swiper-button-prev::after, .swiper-button-next::after {
-    font-size: xx-large !important;
   }
 }

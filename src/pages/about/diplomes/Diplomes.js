@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../../styles/diplomes.css";
+import "../../../styles/swiper.css";
 
 import dataDiplomes from "../../../data/dataDiplomes.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
