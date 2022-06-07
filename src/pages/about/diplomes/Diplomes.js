@@ -5,13 +5,14 @@ import dataDiplomes from "../../../data/dataDiplomes.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // import Swiper core and required modules
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const Diplomes = () => {
   const [diplomes, setDiplomes] = useState(dataDiplomes);
@@ -24,10 +25,12 @@ const Diplomes = () => {
       <Swiper
         className="container diplomes_container"
         // install Swiper modules
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        navigation={true}
+        loop={true}
       >
         {diplomes.map(({ image, annee, diplome }, index) => {
           return (

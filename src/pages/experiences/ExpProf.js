@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import "../../styles/expProf.css";
 
 import dataExperiences from "../../../src/data/dataExperiences.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // import Swiper core and required modules
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const ExpProf = () => {
   const [experiences, setExperiences] = useState(dataExperiences);
@@ -21,10 +21,12 @@ const ExpProf = () => {
       <Swiper
         className="container professionnelles_container"
         // install Swiper modules
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        navigation={true}
+        loop={true}
       >
         {experiences.map(({ title, employer, description }, index) => {
           return (
