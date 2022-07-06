@@ -24,9 +24,12 @@ const App = () => {
           <Route path="/about/diplomes" element={<Diplomes />} />
         </Route>
         <Route path="/experiences" element={<Experiences />}>
-          <Route index element={<ExpProf />} />
+          <Route index element={<ExpDescription />} />
           <Route path="/experiences/professionnelles" element={<ExpProf />} />
-          <Route path="/experiences/description" element={<ExpDescription />} />
+          <Route
+            path="/experiences/developpement"
+            element={<ExpDescription />}
+          />
         </Route>
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />

@@ -5,6 +5,7 @@ import IMG3 from "../../src/assets/dessin3.jpg";
 import IMG4 from "../../src/assets/dessin4.jpg";
 import IMG5 from "../../src/assets/dessin5.jpg";
 import IMG6 from "../../src/assets/dessin6.jpg";
+import IMG7 from "../../src/assets/dessin7.jpg";
 
 import {
   faJs,
@@ -13,11 +14,21 @@ import {
   faReact,
   faAngular,
   faNode,
+  faWordpress,
 } from "@fortawesome/free-brands-svg-icons";
 
 const dataPortfolio = [
   {
-    id: 0,
+    id: 7,
+    image: IMG7,
+    title: "Test technique WordPress",
+    git: "https://github.com/A-Pompon/test-voltaire",
+    language: "Le site est réalisé à l'aide de WordPress.",
+    info: "Test technique consistant à créer un site Woocommerce avec un article à la vente et totalement responsive. Déploiement sur un VPS. Certification SSL. Utilisation d'un thème enfant du thème storeFront (créer par la même entreprise que WooCommerce). Amélioration du SEO avec une extension. UI design avec Elementor et ses extensions (modification de certains composants directement en CSS). Traduction multi-langue. Responsive design. Formulaire de contact. Gestion des produits (stocks, promotions).",
+    languageIcons: [faWordpress, faCss3],
+  },
+  {
+    id: 6,
     image: IMG0,
     title: "React - CV",
     git: "https://github.com/A-Pompon/cv-react",
@@ -26,7 +37,7 @@ const dataPortfolio = [
     languageIcons: [faReact, faJs, faCss3],
   },
   {
-    id: 1,
+    id: 5,
     image: IMG1,
     title: "React Native - MovieDex",
     git: "https://gitlab.com/PomponArnaud/moviedex/-/tree/master",
@@ -35,7 +46,7 @@ const dataPortfolio = [
     languageIcons: [faReact, faJs, faCss3],
   },
   {
-    id: 2,
+    id: 4,
     image: IMG2,
     title: "Express.js - Backend de MovieDex",
     git: "https://gitlab.com/PomponArnaud/pocketnews/-/tree/dev",
@@ -53,7 +64,7 @@ const dataPortfolio = [
     languageIcons: [faAngular, faJs, faCss3],
   },
   {
-    id: 4,
+    id: 2,
     image: IMG4,
     title: "JS - Tic Tac Toe IA random",
     git: "https://github.com/A-Pompon/TicTacToe/tree/ArnaudP",
@@ -62,7 +73,7 @@ const dataPortfolio = [
     languageIcons: [faJs, faHtml5, faCss3],
   },
   {
-    id: 5,
+    id: 1,
     image: IMG5,
     title: "JS - Tic Tac Toe IA win",
     git: "https://github.com/A-Pompon/TicTacToe-IA-win",
@@ -71,7 +82,7 @@ const dataPortfolio = [
     languageIcons: [faJs, faHtml5, faCss3],
   },
   {
-    id: 6,
+    id: 0,
     image: IMG6,
     title: "JS - Shi Fu Mi",
     git: "https://github.com/A-Pompon/ShiFuMi-IA",

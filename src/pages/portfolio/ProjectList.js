@@ -8,9 +8,13 @@ const ProjectList = () => {
   return (
     <div>
       <div className="container portfolio__container">
-        {projects.map((item) => {
-          return <Project key={item.id} item={item} />;
-        })}
+        {projects
+          .sort((a, b) => {
+            return b.id - a.id;
+          })
+          .map((item) => {
+            return <Project key={item.id} item={item} />;
+          })}
       </div>
     </div>
   );

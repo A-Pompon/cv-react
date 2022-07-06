@@ -5,7 +5,7 @@ import "../../styles/experiences.css";
 import ScrollToTop from "../../helpers/ScrollToTop";
 
 const Experiences = () => {
-  const [activeNav, setActiveNav] = useState("experiences");
+  const [activeNav, setActiveNav] = useState("developpement");
 
   return (
     <>
@@ -16,18 +16,18 @@ const Experiences = () => {
 
         <nav className="exp__nav">
           <Link
+            to="/experiences/developpement"
+            onClick={() => setActiveNav("developpement")}
+            className={activeNav === "developpement" ? "active" : ""}
+          >
+            Développement
+          </Link>
+          <Link
             to="/experiences/professionnelles"
             onClick={() => setActiveNav("experiences")}
             className={activeNav === "experiences" ? "active" : ""}
           >
             Globales
-          </Link>
-          <Link
-            to="/experiences/description"
-            onClick={() => setActiveNav("description")}
-            className={activeNav === "description" ? "active" : ""}
-          >
-            Développement
           </Link>
         </nav>
         <Outlet />
