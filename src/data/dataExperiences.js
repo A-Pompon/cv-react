@@ -3,7 +3,7 @@ const dataExperiences = [
     title: "Stage Développeur Web Fullstack",
     employer: ["DAMIEN | Septembre - Novembre 2021"],
     description:
-      "Durant mon stage en entreprise, j’ai été en charge de créer une application utilisant certaines fonctionnalités : interface utilisateur, hachage du mot de passe, utilisation de tokens, gestion du state global avec un système d'annotation, API RESTfull.",
+      "Durant mon stage en entreprise, j’ai été en charge de créer une application utilisant certaines fonctionnalités : interface utilisateur, hachage du mot de passe, utilisation de tokens, gestion du state global avec un système d'annotation, API RESTfull. Les projets sont consultable sur la page Portfolio.",
   },
   {
     title: "Stage Community manager",
