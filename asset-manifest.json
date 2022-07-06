@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-react/static/css/main.155353cc.css",
-    "main.js": "/cv-react/static/js/main.f7102fdc.js",
+    "main.js": "/cv-react/static/js/main.af9a7ef4.js",
     "static/media/me-2.png": "/cv-react/static/media/me-2.e2eb8d704629e2a32315.png",
     "static/media/pompon-cv.pdf": "/cv-react/static/media/pompon-cv.70060f4bf8727de0a3d0.pdf",
     "static/media/me.jpg": "/cv-react/static/media/me.7a3a57334aef00f82be2.jpg",
@@ -16,10 +16,10 @@
     "static/media/dessin7.jpg": "/cv-react/static/media/dessin7.c67abf4c43998e4bcf77.jpg",
     "index.html": "/cv-react/index.html",
     "main.155353cc.css.map": "/cv-react/static/css/main.155353cc.css.map",
-    "main.f7102fdc.js.map": "/cv-react/static/js/main.f7102fdc.js.map"
+    "main.af9a7ef4.js.map": "/cv-react/static/js/main.af9a7ef4.js.map"
   },
   "entrypoints": [
     "static/css/main.155353cc.css",
-    "static/js/main.f7102fdc.js"
+    "static/js/main.af9a7ef4.js"
   ]
 }
