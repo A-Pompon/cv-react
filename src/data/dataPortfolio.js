@@ -6,6 +6,7 @@ import IMG4 from "../../src/assets/dessin4.jpg";
 import IMG5 from "../../src/assets/dessin5.jpg";
 import IMG6 from "../../src/assets/dessin6.jpg";
 import IMG7 from "../../src/assets/dessin7.jpg";
+import IMG8 from "../../src/assets/dessin8.jpg";
 
 import {
   faJs,
@@ -18,6 +19,24 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const dataPortfolio = [
+  {
+    id: 9,
+    image: IMG8,
+    title: 'Express.js/Mongoose - Test technique "Carnet d\'adresses"',
+    git: "https://github.com/A-Pompon/back-wop",
+    language: "Le backend est réalisé en Express.js et la DB avec Mongoose.",
+    info: "Test technique consistant à créer un serveur en utilisant Node.js et Express.js ainsi qu'une base de données avec Mongoose, afin de créer une API (interface de programmation d’application) RESTful permettant des opérations CRUD (Create, Read, Update and Delete) ainsi qu'un système d'authentification avec hachage de mot de passe et utilisation de tokens.",
+    languageIcons: [faNode],
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: 'Angular - Test technique "Carnet d\'adresses"',
+    git: "https://github.com/A-Pompon/world-of-pangolins",
+    language: "Le site est réalisé en Angular & est responsive.",
+    info: "Test technique consistant à créer un site avec une interface utilisateur, des tokens, une inscription, une connexion, un jeu, une déconnexion, la possibilité d'ajout en ami, un accès à la liste du classement du jeu et des amis. J'ai ajouté un jeu basé sur le \"Pierre, papier, ciseau\" avec un système de score en fonction du niveau choisit.",
+    languageIcons: [faAngular, faJs, faCss3],
+  },
   {
     id: 7,
     image: IMG7,
@@ -48,9 +67,9 @@ const dataPortfolio = [
   {
     id: 4,
     image: IMG2,
-    title: "Express.js - Backend de MovieDex",
+    title: "Express.js/PostgreSQL - Backend de MovieDex",
     git: "https://gitlab.com/PomponArnaud/pocketnews/-/tree/dev",
-    language: "Le backend est réalisé en Express.js et la DB en PostgreSQL.",
+    language: "Le backend est réalisé en Express.js et la DB avec PostgreSQL.",
     info: "J’ai créé un serveur en utilisant Node.js et Express.js ainsi qu'une base de données avec PostgreSQL, afin de créer une API (interface de programmation d’application) RESTful (style d’architecture logiciel avec un ensemble de contraintes) permettant des opérations CRUD (Create, Read, Update and Delete) ainsi qu'un système d'authentification avec hachage de mot de passe et utilisation de tokens.",
     languageIcons: [faNode],
   },

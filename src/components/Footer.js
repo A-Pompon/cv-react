@@ -3,7 +3,7 @@ import "../styles/footer.css";
 import { SiGitlab, SiLinkedin, SiGithub } from "react-icons/si";
 import { Link } from "react-router-dom";
 
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import {
   home,
   about,
