@@ -18,7 +18,7 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route exact path="/cv-react" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />}>
           <Route path="/about/competences" element={<Competences />} />
           <Route path="/about/diplomes" element={<Diplomes />} />
