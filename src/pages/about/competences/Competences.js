@@ -19,7 +19,7 @@ const Competences = () => {
 
       <div className="container competences__container">
         <div className="competences__frontend">
-          <h3>Frontend développement</h3>
+          <h3>Développement Frontend</h3>
           <div className="competences__content">
             {competencesFront.map(({ langage, ladder }, index) => {
               return (
@@ -40,7 +40,7 @@ const Competences = () => {
         {/* END FRONT END COMPETENCES */}
 
         <div className="competences__backend">
-          <h3>Backend développement</h3>
+          <h3>Développement Backend</h3>
           <div className="competences__content">
             {competencesBack.map(({ langage, ladder }, index) => {
               return (

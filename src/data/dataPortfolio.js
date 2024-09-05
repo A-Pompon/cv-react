@@ -7,6 +7,7 @@ import IMG5 from "../../src/assets/dessin5.jpg";
 import IMG6 from "../../src/assets/dessin6.jpg";
 import IMG7 from "../../src/assets/dessin7.jpg";
 import IMG8 from "../../src/assets/dessin8.jpg";
+import IMG9 from "../../src/assets/dessin9.png";
 
 import {
   faJs,
@@ -20,8 +21,34 @@ import {
 
 const dataPortfolio = [
   {
-    id: 9,
+    id: 11,
     image: IMG8,
+    title: 'React - Projet fin d\'étude "World of Pangolins"',
+    git: "https://github.com/A-Pompon/wow-react",
+    language: "L'application est réalisée en React & est responsive.",
+    info: [
+      'Elle est composée d\'une interface utilisateur, des tokens, une inscription, une connexion, un jeu, une déconnexion, la possibilité de "follow/unfollow" un utilisateur, un accès à la liste du classement du jeu et des "followed". J\'ai ajouté un jeu basé sur le "Pierre, papier, ciseau" avec un système de score en fonction du niveau choisi.',
+      "Pour communiquer entre mon frontend et mon backend, j'ai utilisé Axios dans mes services. De plus, j'ai exploré la puissance des intercepteurs offerts par Axios. Les intercepteurs sont des fonctionnalités avancées qui permettent de prétraiter ou de post-traiter les requêtes et les réponses HTTP.",
+      '**Update/Improvement en React du projet "Carnet d\'adresse" réalisé en Angular/Mongo.**',
+    ],
+    languageIcons: [faReact, faJs, faNode],
+  },
+  {
+    id: 10,
+    image: IMG8,
+    title: 'Express.js/PostgreSQL - Projet fin d\'étude "World of Pangolins"',
+    git: "https://github.com/A-Pompon/wop-postgres",
+    language: "Le backend est réalisé en Express.js et la DB avec PostgreSQL.",
+    info: [
+      "Pour sécuriser la communication entre le serveur Node et la base de données, je vais utiliser l'ORM Sequelize et intégrer des hooks dans mes modèles, qui sont des fonctions exécutées automatiquement avant ou après certaines opérations sur les données.",
+      "J’ai l'implémenté des mécanismes de sécurisation des données tels que l'authentification et l'autorisation d’accès aux données des utilisateurs avec l'utilisation de tokens, le hachage du mot de passe en DB, la protection contre les injections SQL ou encore le contrôle des données que l’utilisateur pourra saisir.",
+      "L'API a été testé avec Postman.",
+    ],
+    languageIcons: [faNode],
+  },
+  {
+    id: 8,
+    image: IMG9,
     title: 'Express.js/Mongoose - Test technique "Carnet d\'adresses"',
     git: "https://github.com/A-Pompon/back-wop",
     language: "Le backend est réalisé en Express.js et la DB avec Mongoose.",
@@ -29,12 +56,12 @@ const dataPortfolio = [
     languageIcons: [faNode],
   },
   {
-    id: 8,
-    image: IMG8,
+    id: 9,
+    image: IMG9,
     title: 'Angular - Test technique "Carnet d\'adresses"',
     git: "https://github.com/A-Pompon/world-of-pangolins",
     language: "Le site est réalisé en Angular & est responsive.",
-    info: "Test technique consistant à créer un site avec une interface utilisateur, des tokens, une inscription, une connexion, un jeu, une déconnexion, la possibilité d'ajout en ami, un accès à la liste du classement du jeu et des amis. J'ai ajouté un jeu basé sur le \"Pierre, papier, ciseau\" avec un système de score en fonction du niveau choisit.",
+    info: "Test technique consistant à créer un site avec une interface utilisateur, des tokens, une inscription, une connexion, un jeu, une déconnexion, la possibilité d'ajout/suppression en ami un joueur, un accès à la liste du classement du jeu et des amis. J'ai ajouté un jeu basé sur le \"Pierre, papier, ciseau\" avec un système de score en fonction du niveau choisi.",
     languageIcons: [faAngular, faJs, faCss3],
   },
   {
@@ -43,7 +70,7 @@ const dataPortfolio = [
     title: "Test technique WordPress",
     git: "https://github.com/A-Pompon/test-voltaire",
     language: "Le site est réalisé à l'aide de WordPress.",
-    info: "Test technique consistant à créer un site Woocommerce avec un article à la vente et totalement responsive. Déploiement sur un VPS. Certification SSL. Utilisation d'un thème enfant du thème storeFront (créer par la même entreprise que WooCommerce). Amélioration du SEO avec une extension. UI design avec Elementor et ses extensions (modification de certains composants directement en CSS). Traduction multi-langue. Responsive design. Formulaire de contact. Gestion des produits (stocks, promotions).",
+    info: "Test technique consistant à créer une e-boutique avec Woocommerce, avec au moins un article à la vente et totalement responsive. Déploiement sur un VPS. Certification SSL. Utilisation d'un thème enfant du thème storeFront (créer par la même entreprise que WooCommerce). Amélioration du SEO avec une extension. UI design avec Elementor et ses extensions (modification de certains composants directement en CSS). Traduction multi-langue. Responsive design. Formulaire de contact. Gestion des produits (stocks, promotions).",
     languageIcons: [faWordpress, faCss3],
   },
   {

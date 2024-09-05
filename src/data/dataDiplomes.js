@@ -3,8 +3,15 @@ import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 const dataDiplomes = [
   {
     image: faGraduationCap,
+    annee: 2024,
+    diplome:
+      "Niveau Titre professionnel de niveau 6 - Concepteur développeur d’applications - ISCOD",
+  },
+  {
+    image: faGraduationCap,
     annee: 2021,
-    diplome: "Titre de Développeur web & web mobile - AFPA",
+    diplome:
+      "Titre professionnel de niveau 5 -  Développeur web & web mobile - AFPA",
   },
   {
     image: faGraduationCap,

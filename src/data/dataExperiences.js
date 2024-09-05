@@ -1,9 +1,15 @@
 const dataExperiences = [
   {
+    title: "Alternance Développeur Web Fullstack",
+    employer: ["DATANOW | Mars 2023 - Mai 2024"],
+    description:
+      "Au sein de la start-up DATANOW, j'ai participé à la refonte générale de l'application web en tant que développeur fullstack. Voici quelques compétences que j'ai pu acquérir : Développer les parties front-end et back-end d’une interface utilisateur web. Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement. Développer des composants d’accès aux données et des composants métier. Préparer et exécuter les plans de tests et le déploiement d’une application.",
+  },
+  {
     title: "Stage Développeur Web Fullstack",
     employer: ["DAMIEN | Septembre - Novembre 2021"],
     description:
-      "Durant mon stage en entreprise, j’ai été en charge de créer une application utilisant certaines fonctionnalités : interface utilisateur, hachage du mot de passe, utilisation de tokens, gestion du state global avec un système d'annotation, API RESTfull. Les projets sont consultable sur la page Portfolio.",
+      "Durant mon stage en entreprise, j’ai été en charge de créer une application utilisant certaines fonctionnalités : une interface utilisateur, un hachage du mot de passe, l'utilisation de tokens, une gestion du state global avec un système d'annotation et une API RESTfull. Les projets sont consultables sur la page Portfolio.",
   },
   {
     title: "Stage Community manager",

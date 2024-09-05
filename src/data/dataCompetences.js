@@ -12,6 +12,10 @@ const dataCompetencesFront = [
     ladder: "one",
   },
   {
+    langage: "TypeScript",
+    ladder: "one",
+  },
+  {
     langage: "React Native",
     ladder: "two",
   },

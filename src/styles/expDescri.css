@@ -2,7 +2,7 @@
   width: 80%;
 }
 
-.movieDex {
+.experiences {
   margin-top: 2rem;
   min-height: 300px;
   background: var(--color-bg-variant);
@@ -16,28 +16,48 @@
   transition: var(--transition3);
 }
 
-.movieDex:hover {
+.experiences:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
 }
 
-.movieDex > h2, .movieDex > h3 {
+.experiences > h2,
+.experiences > h3 {
   text-align: center;
   margin-top: 0.8rem;
+}
+
+.experiences > small {
+  text-align: center;
+  color: var(--color-light);
 }
 
 h2 {
   color: var(--color-primary);
 }
 
-h3{
+h3 {
   color: var(--color-light);
 }
 
-.movieDex p {
+.experiences p {
   margin-top: 0.8rem;
   color: var(--color-white);
+}
+
+.experiences ul {
+  padding-left: 20px;
+}
+
+.experiences ul li::before {
+  margin-top: 0.8rem;
+  content: "•";
+  color: var(--color-white);
+  font-size: 1em;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .codinGame {
@@ -55,14 +75,13 @@ h3{
 }
 
 .codinGame:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-    
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
 }
 
 .btn {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 /* ===== MEDIA QUERIES (SMALL DEVICES) ===== */
@@ -71,17 +90,17 @@ h3{
   .description__container {
     width: 95%;
   }
-  
 
-  .movieDex {
+  .experiences {
     padding: 1rem;
   }
 
-  .movieDex > h2, .movieDex > h3 {
+  .experiences > h2,
+  .experiences > h3 {
     margin-top: 1rem;
   }
 
-  .movieDex p {
+  .experiences p {
     margin-top: 1rem;
   }
 }

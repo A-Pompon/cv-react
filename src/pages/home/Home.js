@@ -21,7 +21,7 @@ const Home = () => {
         <div className="container home__container">
           <h5>Je me présente</h5>
           <h1>Arnaud POMPONIO</h1>
-          <h5 className="text-light">Développeur Fullstack Junior</h5>
+          <h5 className="text-light">Développeur Web Fullstack</h5>
 
           <SocialsLarge />
           <div className="content">

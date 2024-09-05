@@ -46,7 +46,15 @@ const Project = ({ item }) => {
               {language}
               <br />
               <br />
-              {info}
+              {Array.isArray(info)
+                ? info.map((item, index) => (
+                    <span key={index}>
+                      {item}
+                      <br />
+                      <br />
+                    </span>
+                  ))
+                : info}
             </p>
 
             <div>

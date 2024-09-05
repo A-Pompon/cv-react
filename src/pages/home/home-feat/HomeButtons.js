@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../../assets/pompon-cv.pdf";
+import CV from "../../../assets/a-pomponio-cv.pdf";
 import { Link } from "react-router-dom";
 
 import { useDispatch } from "react-redux";
