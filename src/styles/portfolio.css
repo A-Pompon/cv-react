@@ -102,6 +102,7 @@
 
 .infosContent {
   scroll-snap-align: start;
+  max-height: 98%;
   width: 50%;
   color: var(--color-primary-variant);
   background: var(--color-bg);
@@ -127,6 +128,7 @@
   color: var(--color-primary);
   margin: 2rem 5rem;
   font-size: 1rem;
+  overflow-y: auto;
 }
 
 .icons__moins {
