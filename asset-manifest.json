@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.155353cc.css",
-    "main.js": "/static/js/main.fe22a04c.js",
-    "static/media/me-2.png": "/static/media/me-2.e2eb8d704629e2a32315.png",
-    "static/media/pompon-cv.pdf": "/static/media/pompon-cv.d6a4ddc784c5d0b6f615.pdf",
+    "main.css": "/static/css/main.c7bc6285.css",
+    "main.js": "/static/js/main.2a00fd39.js",
+    "static/media/me-2.png": "/static/media/me-2.055038684f631d970e06.png",
+    "static/media/a-pomponio-cv.pdf": "/static/media/a-pomponio-cv.df148742fe4fd04d5d7c.pdf",
     "static/media/me.jpg": "/static/media/me.7a3a57334aef00f82be2.jpg",
+    "static/media/dessin9.png": "/static/media/dessin9.cec59e7f89b3b826cf77.png",
     "static/media/codingame.pdf": "/static/media/codingame.13e159cba866b4172eeb.pdf",
     "static/media/dessin1.jpg": "/static/media/dessin1.782b25b077ceb5eee386.jpg",
     "static/media/dessin4.jpg": "/static/media/dessin4.1e5c97c887c6a2e8983b.jpg",
@@ -16,11 +17,11 @@
     "static/media/dessin0.jpg": "/static/media/dessin0.d4a4f3b4aa7a788a9ed7.jpg",
     "static/media/dessin7.jpg": "/static/media/dessin7.c67abf4c43998e4bcf77.jpg",
     "index.html": "/index.html",
-    "main.155353cc.css.map": "/static/css/main.155353cc.css.map",
-    "main.fe22a04c.js.map": "/static/js/main.fe22a04c.js.map"
+    "main.c7bc6285.css.map": "/static/css/main.c7bc6285.css.map",
+    "main.2a00fd39.js.map": "/static/js/main.2a00fd39.js.map"
   },
   "entrypoints": [
-    "static/css/main.155353cc.css",
-    "static/js/main.fe22a04c.js"
+    "static/css/main.c7bc6285.css",
+    "static/js/main.2a00fd39.js"
   ]
 }
